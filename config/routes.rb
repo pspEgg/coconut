@@ -1,5 +1,5 @@
 Coconut::Application.routes.draw do
-  
+  root to: 'charges#new'
   resources :charges
   
   # The priority is based upon order of creation: first created -> highest priority.
